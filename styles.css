@@ -1,3 +1,19 @@
+body {
+    display: flex;
+    font-family: sans-serif;
+    justify-content: center;
+}
+
+.container {
+    display: inline-block;
+}
+
+.score {
+    display: flex;
+    justify-content: right;
+    text-transform: uppercase;
+}
+
 .row {
     height: 36px;
 }
@@ -5,23 +21,23 @@
 .square {
     border: 1px solid lightgray;
     display: inline-block;
-    margin: 2px;
     height: 30px;
+    margin: 2px;
     width: 30px;
 }
 
 .dot-square {
     background-color: red;
     display: inline-block;
-    margin: 2px;
     height: 32px;
+    margin: 2px;
     width: 32px;
 }
 
 .filled-square {
     background-color: black;
     display: inline-block;
-    margin: 2px;
     height: 32px;
+    margin: 2px;
     width: 32px;
 }
